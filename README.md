@@ -11,24 +11,24 @@ The home page introduces users to the Empowering the Nation mission and purpose,
 From the home page, users can effortlessly navigate to key sections, including Courses, Discounts, and Contact Support, to find the information they need.
 ### Courses Section
 The Courses section lists all available training courses with comprehensive details on each:
-Descriptions: Each course includes a brief description outlining what users can expect to learn.
-Duration: Users can see how long each course lasts, enabling them to plan their time accordingly.
-Fees: Each course listing displays the cost, making it easy for users to understand the financial investment.
-Users can select multiple courses and view how these courses contribute to their career growth. Course selection may qualify users for discounts based on the number of courses chosen.
+- Descriptions: Each course includes a brief description outlining what users can expect to learn.
+- Duration: Users can see how long each course lasts, enabling them to plan their time accordingly.
+- Fees: Each course listing displays the cost, making it easy for users to understand the financial investment.
+- Users can select multiple courses and view how these courses contribute to their career growth. Course selection may qualify users for discounts based on the number of courses chosen.
 ### Discounts
 The website automatically applies discounts when users select multiple courses:
-Discounts are based on the number of courses enrolled, encouraging users to engage in comprehensive training packages at a reduced rate.
-The discount calculation is displayed in real-time as users select courses, helping them make cost-effective decisions.
+- Discounts are based on the number of courses enrolled, encouraging users to engage in comprehensive training packages at a reduced rate.
+- The discount calculation is displayed in real-time as users select courses, helping them make cost-effective decisions.
 ### Enrollment
 Users can quickly and easily enroll in courses through the website:
-Account Creation: Users are prompted to create an account to keep track of their enrolled courses and schedules.
-Course Selection: Users can choose from a range of courses, select those that meet their needs, and complete enrollment in just a few steps.
-Confirmation and Schedule: Upon enrollment, users receive a confirmation email, a course schedule, and reminders for upcoming classes.
+- Account Creation: Users are prompted to create an account to keep track of their enrolled courses and schedules.
+- Course Selection: Users can choose from a range of courses, select those that meet their needs, and complete enrollment in just a few steps.
+- Confirmation and Schedule: Upon enrollment, users receive a confirmation email, a course schedule, and reminders for upcoming classes.
 ### Contact and Support
 A dedicated Contact and Support page allows users to:
-Reach out for further information about the courses.
-Request assistance with the enrollment process.
-Get in touch with customer support for any other inquiries or help.
+- Reach out for further information about the courses.
+- Request assistance with the enrollment process.
+- Get in touch with customer support for any other inquiries or help.
 ### Getting Started
 To get started with Empowering the Nation, simply:
 
