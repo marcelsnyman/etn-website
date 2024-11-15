@@ -59,7 +59,7 @@
 
 
 
-  <form id="registrationForm">
+  <form class="registration-form-form" id="registrationForm">
     <h1> Enroll Now! </h1>
     <p> Please fill in the required information and select the courses you would like to enroll in. <br> </p>
     <!-- Contact Details -->
@@ -82,35 +82,52 @@
     <!-- Six Week Courses -->
     <h3>Six Week Courses:</h3><br>
     <div class=checkbox-container>
-    <label for="child_minding">Child Minding (R750)</label>
-    <input class= "checkbox-registration" type="checkbox" id="child_minding" name="courses" value="750" data-course="Child Minding">
+    <label for="child_minding">Child Minding (R750)<input class= "checkbox-registration" type="checkbox" id="child_minding" 
+        name="courses" value="750" data-course="Child Minding"></label>
+    
     </div>
 
     <div class=checkbox-container>
-    <label for="cooking">Cooking (R750)</label>
-    <input class= "checkbox-registration" type="checkbox" id="cooking" name="courses" value="750" data-course="Cooking">
+    <label for="cooking">Cooking (R750) <input class= "checkbox-registration" type="checkbox" id="cooking" 
+        name="courses" value="750" data-course="Cooking"></label>
+   
     </div>
 
     <div class=checkbox-container>
-    <label for="garden_maintenance">Garden Maintenance (R750)</label>
-    <input class= "checkbox-registration" type="checkbox" id="garden_maintenance" name="courses" value="750" data-course="Garden Maintenance">
+    <label for="garden_maintenance">Garden Maintenance (R750)<input class= "checkbox-registration" type="checkbox" 
+        id="garden_maintenance" name="courses" value="750" data-course="Garden Maintenance"></label>
+    
     </div>
     
 
     <!-- Six Month Courses -->
     <h3>Six Month Courses:</h3><br>
-    <input class= "checkbox-registration" type="checkbox" id="first_aid" name="courses" value="1500" data-course="First Aid">
-    <label for="first_aid">First Aid (R1500)</label><br>
 
-    <input class= "checkbox-registration" type="checkbox" id="landscaping" name="courses" value="1500" data-course="Landscaping">
-    <label for="landscaping">Landscaping (R1500)</label><br>
+    <div class=checkbox-container>
+    <label for="first_aid"> First Aid (R1500) <input class= "checkbox-registration" type="checkbox" 
+        id="first_aid" name="courses" value="1500" data-course="First Aid">  </label>                                                                                    
+    
+    </div>
 
-    <input class= "checkbox-registration" type="checkbox" id="life_skills" name="courses" value="1500" data-course="Life Skills">
-    <label for="life_skills">Life Skills (R1500)</label><br>
+    <div class=checkbox-container>
+    <label for="landscaping">Landscaping (R1500) <input class= "checkbox-registration" type="checkbox" id="landscaping" 
+        name="courses" value="1500" data-course="Landscaping"></label>
+    
+    </div>
 
-    <input class= "checkbox-registration" type="checkbox" id="sewing" name="courses" value="800" data-course="Sewing">
-    <label for="sewing">Sewing (R1500)</label><br>
+    <div class=checkbox-container>
+    <label for="life_skills">Life Skills (R1500) <input class= "checkbox-registration" type="checkbox" id="life_skills" 
+        name="courses" value="1500" data-course="Life Skills"></label>
+    
+    </div>
 
+    <div class=checkbox-container>
+    <label for="sewing">Sewing (R1500) <input class= "checkbox-registration" type="checkbox" 
+        id="sewing" name="courses" value="800" data-course="Sewing">  </label>
+    
+    </div> 
+
+    
     <!-- Calculator Button -->
     <button type="button" id="calculateBtn">Calculate Total Fees</button><br><br>
 

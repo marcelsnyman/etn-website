@@ -2194,10 +2194,31 @@ margin: auto;
 .checkbox-container {
     display: flex;
     align-items: center;
-    margin-bottom: 25px; /* Space between each checkbox */
+    vertical-align: middle;
+    margin-bottom: 35px; /* Space between each checkbox */
 }
 
 .checkbox-registration {
     width: 24px;
     height: 24px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.checkbox-container label {
+    display: inline-block; 
+}
+
+.registration-form-form h1{
+    text-align: center;
+}
+
+.registration-form-form h2{
+    text-align: center;
+}
+
+.registration-form-form h3{
+    text-align: center;
+    color: white;
 }
