@@ -1,0 +1,2203 @@
+body{
+    height: auto;
+    width: 100%;
+    padding: auto;
+
+}
+
+/*style 6 week/month buttons*/
+.learn-more-button{
+    color: #000000;
+    background-color: #2634af4a;
+    border-radius: 12px;
+    display:inline-block;
+   
+}
+
+.secular-one-regular {
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Style the navigation menu */
+.navbar-1 {
+    width: 100%;
+    background-color: #555555ad;
+    overflow: auto;
+  }
+  
+  /*6month/week nav*/
+  .navbar-1 a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar-1 a:hover {
+    background-color: #44724654;
+  }
+  
+ 
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar-1 a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+  
+/* Navigation bar styling */
+.navbar {
+    background-color: #0913489b;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+   
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .footer {
+    position:relative;
+    left: 0;
+    bottom: -70%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+  }
+  .footer1 {
+    position: relative;
+    left: 0%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    bottom: 100%;
+    
+  }
+  .home-custom {
+    background-color: #757875; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: auto;
+    font-size: 20px;
+    width: 5%;
+    border-radius: 115%;
+}
+
+.home-custom:hover {
+    background-color: #788478; 
+}
+.body1 {
+    font-family: sans-serif;
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+/* List styling */
+.nav-list {
+    list-style-type:none;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+/* Style for each list item */
+.nav-list li {
+    position: relative; /* For dropdown positioning */
+}
+
+/* Link styles */
+.nav-list a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+}
+
+/* Change color on hover */
+.nav-list a:hover {
+    background-color: #ffffff;
+    color: #000000 ;
+}
+
+/* Dropdown container */
+.dropdown {
+    display: inline-block;
+    
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display:none;
+    position: fixed;
+    background-color: #00000071;
+    min-width: 200px; /* Width of dropdown */
+    z-index: 5;
+    border-radius: 4px;
+    font-size: large;
+    text-align: center;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 10px 14px;
+    text-decoration: none;
+    display:inline-block;
+    text-align: center;
+    font-size: large;
+}
+
+/* Hover effect on dropdown links */
+.dropdown-content a:hover {
+    background-color: #ffffff;
+    color: black ;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Align Home and Contact to the left, drop-downs to the center*/
+.nav-list li:nth-child(3), .nav-list li:nth-child(4) {
+    margin-left: 10%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .dropdown-content {
+        position: relative;
+    }
+}
+
+/*Home page style*/
+  #home-page-body{
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/backgroundMainMenu.png') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+   
+   
+/* home page logo*/
+.home-page-logo {
+   position: absolute ;
+   top: -140px;
+   left: 36.5% ;
+   transform: translateX(-50%);
+   z-index: 50;
+   padding-top: 0px;
+   scale: 50%;
+   background-color: rgba(88, 59, 255, 0.3);
+   border-radius: 50%;
+
+}
+
+
+/*six month body*/
+#six-month-header-background {
+    position:relative;
+    width: 99%;
+    height: 170px;
+    
+    
+}
+
+/* Styles specific to the 6-week Page */
+  #six-month-page-body{
+    width: 99%;
+    height: auto;
+    background: url('_img/pexels-felixmittermeier-957024.jpg') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+  }
+  /*6 month/week course pages*/
+
+.container12 {
+    display:inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Optional: allows wrapping to the next line if needed */
+    gap: 16px; /* Adjust the gap between cards as needed */
+    width: 100%;
+}
+
+.card1 {
+    flex: 3 3 calc(1% - 2px); /* Adjust the percentage and subtraction value based on desired spacing */
+    background: #43911eb7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.275);
+    overflow: hidden;
+    text-align: center;
+    margin: 25px; /* Optional: for additional spacing around cards */
+    height: fit-content;
+}
+
+.card1 img {
+    width: 100%;
+    height:auto;
+}
+
+.card1 h1 {
+    color: #ffffff
+}
+
+.card1 p {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 1rem 1rem;
+    font-style: bold;
+    text-align: center;
+}
+
+.card1 a {
+    margin-bottom: 20px ;
+    color: #ffffff ;
+}
+
+.card1 a:hover {
+    background-color: #ffffff;
+    color: #000000 ;
+}
+
+
+
+.bg-image8 {
+    /* The image used */
+    background-image: url("_img/first-aid-908591.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text8 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    background: rgba(30, 122, 50, 0.753); 
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+   margin-top: -10%;
+   top: 100px;
+   z-index: 100;
+
+  }
+#six-month-footer{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    top: 160px ;
+}
+#six-month-footer-content p{
+    margin: 0;
+    font-size: 16px; 
+    text-align: center;  
+}
+/* Fix the header background */
+#six-week-header-background {
+    position:relative;
+    width: 99%;
+    height: 170px;
+    
+    
+}
+#six-week-footer{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    top: 160px ;
+}
+
+#six-week-footer-content p {
+    margin: 0;
+    font-size: 16px; 
+    text-align: center;
+}
+
+/* Styles specific to the 6-week Page */
+  #six-week-page-body{
+    width: 99%;
+    height: auto;
+    background: url('_img/pexels-pixabay-314726.jpg') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+  }
+  /*6 month/week course pages*/
+
+.container {
+    display:inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Optional: allows wrapping to the next line if needed */
+    gap: 16px; /* Adjust the gap between cards as needed */
+}
+
+.card {
+    flex: 3 3 calc(1% - 2px); /* Adjust the percentage and subtraction value based on desired spacing */
+    background: #375fcf88;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.275);
+    overflow: visible;
+    text-align: center;
+    margin: 25px; /* Optional: for additional spacing around cards */
+    width: 30px;
+
+}
+
+.card img {
+    width: 100%;
+    height:auto;
+}
+
+.card h1 {
+    color: #ffffff
+}
+
+.card p {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 1rem 1rem;
+    font-style: bold;
+    text-align: center;
+}
+
+.card a {
+    margin-bottom: 20px ;
+    color: #ffffff ;
+}
+
+.card a:hover {
+    background-color: #ffffff;
+    color: #000000 ;
+}
+
+
+
+.bg-image7 {
+    /* The image used */
+    background-image: url("_img/first-aid-908591.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text7 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    background: rgba(44, 42, 172, 0.753); 
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+   margin-top: -10%;
+    top: 100px;
+    z-index: 100;
+  }
+
+
+/* Styles specific to the Cooking Page */
+#cooking-page-body {
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/cooking.jpg') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix the header background */
+#cooking-header-background {
+    position:relative;
+    width: 99%;
+    height: 170px;
+    
+    
+}
+
+/* Center the title */
+#cooking-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow:4px 4px 8px #000c7ae1; 
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+
+
+/* Individual box styles */
+.box2 {
+    background-color: rgba(50, 64, 255, 0.5); 
+    color: white;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+    line-height: center;
+    border-radius: 30px;
+    height: fit-content;
+    top: 1000px ;
+}
+
+.box2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box2:hover {
+    background-color: rgb(50, 64, 255); 
+}
+
+.bg-image2 {
+    /* The image used */
+    background-image: url("_img/first-aid-908591.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    background: rgba(67, 64, 255, 0.753); 
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+   margin-top: -10%;
+   top: 100px;
+   z-index: 100;
+    
+    
+  }
+
+/* Footer styling */
+#cooking-footer {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    top: 160px ;
+}
+
+#cooking-footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Styles specific to the first aid page */
+#firstaid-page-body {
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/first-aid-908591.jpg') no-repeat center center; 
+    font-family: 'Secular One', sans-serif;
+    background-size: cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+
+
+/* Fix the header background */
+#firstaid-header-background {
+    position:relative;
+    width: 99%;
+    height: 170px;
+   
+}
+
+/* Center the title */
+#firstaid-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow:4px 4px 8px rgba(197, 0, 0, 0.5);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+
+
+/* Individual box styles */
+.box {
+    background-color: rgba(255, 64, 64, 0.5);
+    color: white;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+    line-height: center;
+    border-radius: 30px;
+    height: fit-content;
+    top: 1000px ;
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box:hover {
+    background-color: rgba(255, 64, 64, 0.753);
+}
+
+
+/* Footer styling */
+#firstaid-footer {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    top: 160px ;
+   
+}
+
+#firstaid-footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.bg-image {
+    /* The image used */
+    background-image: url("_img/first-aid-908591.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 5px solid #f1f1f181;
+    background: rgba(255, 64, 64, 0.753);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+   margin-top: -10%;
+   top: 100px;
+   z-index: 100;
+    
+    
+  }
+
+
+
+/* Navigation menu */
+nav {
+    background-color: #00000071;
+    position: relative;
+    padding: 1px;
+    text-align: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 200;
+
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 200;
+}
+
+nav a:hover {
+    color: #000000;
+    z-index: 200;
+    background-color: white;
+
+}
+  
+
+/* Styles specific to the landscapping page */
+#landscapping-page-body {
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/landscapping.png') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix the header background */
+#landscapping-header-background {
+    position:relative;
+    width: 99%;
+    height: 170px;
+    
+    
+}
+
+/* Center the title */
+#landscapping-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow:#A7714A;
+}
+
+/* Content boxes container */
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 150px ;
+    min-height: calc(100vh - 100px);
+    flex: 1;
+    padding-bottom: 150px;
+  }
+
+
+
+
+/* Individual box styles */
+.box1 {
+    background-color: rgba(255, 150, 64, 0.5);
+    color: white;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+    line-height: center;
+    border-radius: 30px;
+    height: fit-content;
+    top: 1000px ;
+}
+
+.box1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box1:hover {
+    background-color: rgba(255, 150, 64, 0.753);
+}
+.bg-image1 {
+    /* The image used */
+    background-image: url("_img/first-aid-908591.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+  
+  
+
+    /* Position text in the middle of the page/image */
+    .bg-text1 {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        background: rgba(158, 110, 39, 0.753);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        width: 30%;
+        border: 3px solid white;
+        border-radius: 50px;
+        position: relative;
+        text-align: center;
+        margin-left: 35%;
+       margin-top: -10%;
+       top: 100px;
+       z-index: 100;
+      }
+    
+    
+    
+    
+/* Footer styling */
+#landscapping-footer {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    top: 160px ;
+}
+
+#landscapping-footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+  
+
+
+
+
+
+
+
+/* Styles specific to the lifeSkills page */
+#lifeSkills-page-body {
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/Life_Skills.jpg') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix the header background */
+#lifeSkills-header-background {
+    position:relative;
+    width: 99%;
+    height: 170px;
+    
+    
+}
+
+/* Center the title */
+#lifeSkills-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow:4px 4px 8px #DC5C00; 
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+
+
+/* Individual box styles */
+.box4 {
+    background-color: rgba(253, 179, 40, 0.5);
+    color: white;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+    line-height: center;
+    border-radius: 30px;
+    height: fit-content;
+    top: 1000px ;
+}
+
+.box4 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box4:hover {
+    background-color:rgba(253, 179, 40, 0.753);
+}
+
+.bg-image4 {
+    /* The image used */
+    background-image: url("_img/first-aid-908591.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text4 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    background: rgba(255, 150, 64, 0.753);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+   margin-top: -10%;
+    top: 100px;
+    z-index: 100;
+    
+  }
+
+/* Footer styling */
+#lifeSkills-footer {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    top: 160px ;
+}
+#lifeSkills-footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Styles specific to the garden maintenace page */
+#gardenMaintenace-page-body {
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/gardening.jpg') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix the header background */
+#gardenMaintenace-header-background {
+    position:relative;
+    width: 99%;
+    height: 170px;
+}
+/* Center the title */
+#gardenMaintenace-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow:#32583f48;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+
+
+/* Individual box styles */
+.box3 {
+    background-color: rgba(32, 126, 60, 0.5); 
+    color: white;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+    line-height: center;
+    border-radius: 30px;
+    height: fit-content;
+    top: 1000px ;
+}
+
+.box3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box3:hover {
+    background-color: rgba(32, 126, 60, 0.753);
+}
+
+.bg-image3 {
+    /* The image used */
+    background-image: url("_img/first-aid-908591.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    background: rgba(25, 102, 36, 0.753);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+   margin-top: -10%;
+    top: 100px;
+    z-index: 100;
+    
+  }
+
+/* Footer styling */
+#gardenMaintenace-footer {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    top: 160px ;
+}
+
+#gardenMaintenace-footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Styles specific to the sewing page */
+#sewing-page-body {
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/seewimg2.jpg') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix the header background */
+#sewing-header-background {
+    position:relative;
+    width: 99%;
+    height: 170px;
+    
+    
+}
+
+/* Center the title */
+#sewing-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow:4px 4px 8px #8b5e0a; 
+}
+.container5{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+
+
+/* Individual box styles */
+.box5 {
+background-color: rgba(133, 93, 18, 0.5);  
+color: white;
+width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+    line-height: center;
+    border-radius: 30px;
+    height: fit-content;
+    top: 1000px ;
+}
+
+.box5 a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+
+.box5:hover {
+background-color:rgba(133, 93, 18, 0.753); 
+}
+
+.bg-image5 {
+/* The image used */
+background-image: url("_img/seewimg2.jpg");
+
+/* Add the blur effect */
+filter: blur(8px);
+-webkit-filter: blur(8px);
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text5 {
+text-align: center;
+color: white;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+background: rgba(75, 50, 18, 0.753); 
+-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+width: 30%;
+border: 3px solid white;
+border-radius: 50px;
+position: relative;
+text-align: center;
+margin-left: 35%;
+margin-top: -10%;
+top: 100px;
+z-index: 100;
+
+}
+
+
+/* Footer styling */
+#sewing-footer {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    top: 160px ;
+}
+#sewing-footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Styles specific to the childminding page */
+#childminding-page-body {
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/pexels-markusspiske-298825.jpg') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix the header background */
+#childminding-header-background {
+    position:relative;
+    width: 99%;
+    height: 170px;
+    
+    
+}
+
+/* Center the title */
+#childminding-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow:4px 4px 8px #AB7BC1;
+}
+
+.container6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+
+/* Individual box styles */
+.box6 {
+    background-color:rgba(179, 65, 255, 0.5);  
+    color: white;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+    line-height: center;
+    border-radius: 30px;
+    height: fit-content;
+    top: 1000px ;
+    }
+    
+    .box6 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    
+    .box6:hover {
+    background-color:rgba(179, 65, 255, 0.753);
+    }
+    
+    .bg-image6 {
+    /* The image used */
+    background-image: url("");
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    /* Position text in the middle of the page/image */
+    .bg-text6 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    background: rgba(185, 64, 255, 0.753);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: -10%;
+    top: 100px;
+    z-index: 100;
+    
+    }
+
+/* Footer styling */
+#childminding-footer {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    top: 160px ;
+}
+#childminding-footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/* style contact form*/
+.contact-container {
+    display:block;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    top: 0%;
+    bottom: auto;
+    position: relative;
+    margin: auto;
+    
+    
+
+}
+
+
+.address {
+    margin-bottom: 30px;
+}
+
+.address h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.address ul {
+    list-style: none;
+    padding: 0;
+}
+
+.address li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.address li i {
+    margin-right: 10px;
+    color: #008CBA;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.checkbox-group {
+    display:list-item;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.checkbox-group input {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #424b55;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 16px;
+  }
+  
+  
+  .Home {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+
+  
+  .round {
+    border-radius: 50%;
+  }
+
+
+
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-left: 16px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 20px}
+  }
+
+
+  
+
+  /* style the registration page*/
+h8{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: #000000;
+    text-align: center;
+    text-shadow:4px 4px 8px #9f9f9f;
+    
+}
+  form {
+    width: 900px;
+    margin: 7% auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: #f9f9f9;
+    border-radius: 51px;
+  }
+  
+  label {
+    display: flex;
+    margin-bottom: 8px;
+    font-weight: ita;
+    font-size: 20px;
+   
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"],
+  button {
+    margin-top: 10px; /* Adds spacing between checkbox and label */
+    
+  }
+  
+  input[type="submit"],
+  button {
+    background-color: #4c844e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #totalDisplay {
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+
+
+
+
+.add-to-cart-button {
+    display: inline-block;
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+    background-color: #005f56;
+}
+
+
+/* Overall container styling */
+.graduate-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f7f07c;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width:50%;
+    height: 150%;
+    margin: auto;
+   margin-top: 70px ;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+
+}
+
+
+/* Title styling */
+.graduate-title {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Chart container styling */
+.graduate-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.chart-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#47ff50 0% 92%, #ff4c4c 92% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+/* Percentage text in the chart */
+.percentage {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Passed text below the chart */
+.status {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Description below the chart */
+.graduate-description {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Make it responsive */
+@media screen and (max-width: 768px) {
+    .graduate-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .graduate-image img {
+        max-width: 300px;
+    }
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Image Section */
+.image-large img,
+.image-small img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 5px solid #f1f1f181;
+    border-radius: 30px;
+}
+/* Code to push the first 2 blocks under the logo */
+
+.intro {
+  margin-top: 490px ;
+}
+
+.image-large{
+    margin-top: 15px ;
+}
+
+.image-small {
+    margin-top: 490px ;
+}
+/* ------------------------------------------------ */
+
+/* Description Section */
+.description {
+    padding: 1rem;
+    font-size: 20px;
+    background-color: rgba(64, 83, 255, 0.5);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 10px; 
+    border: 5px solid #f1f1f181;  
+}
+
+.description h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.description p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* Call to Action (CTA) Button */
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta .description {
+    margin-top: 15px;
+}
+.cta-button button {
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(156, 174, 253);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.cta-button button:hover {
+    background-color: #4cae4c;
+}
+
+
+
+h3{
+    color: #000000;
+    font-size:25px ;
+    text-align: center;
+}
+
+
+/*services section*/
+.container1 {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: -20px;
+    padding: 20px;
+    border-radius: 30px ;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 5px solid #f1f1f181;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    
+}
+
+.container1 h1 {
+    position: center ;
+}
+
+
+/*Why Choose us section*/
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px ;
+    background-color: rgba(64, 83, 255, 0.5);
+    color: white;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 5px solid #f1f1f181;
+}
+
+.container h1 {
+    position: center ;
+}
+
+.choose-title {
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+
+/* Overall section styling */
+.info-section {
+    color: white;
+    padding: 3px;
+    margin:  auto;
+    border-radius: 15px;
+    width: 2000px;
+    margin-top: 0px;
+    margin-left: 0px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: center;
+}
+
+/* Bullet point list styling */
+.info-points {
+    list-style: none;
+    padding: 0;
+}
+
+.info-points li {
+    margin-bottom: 24px;
+}
+
+.info-points h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.info-points p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Get in touch styling */
+.get-in-touch {
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgba(64, 83, 255, 0.5);
+    border: 5px solid #f1f1f181;
+    color: white;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.get-in-touch h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.get-in-touch p {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer-note {
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* Make it responsive */
+@media screen and (max-width: 768px) {
+
+    .info-points h3 {
+        font-size: 18px;
+    }
+
+    .info-points p {
+        font-size: 15px;
+    }
+
+    .get-in-touch h2 {
+        font-size: 22px;
+    }
+
+    .get-in-touch p {
+        font-size: 15px;
+    }
+}
+
+
+
+/* Section Title */
+.section-title {
+    font-size: 2.0em;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 40%;
+}
+
+/* Services Section */
+.services-section {
+    color: white;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+/* Service Content */
+.services-content {
+    display:contents;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+/* Service Details */
+.service-details,
+.service-discounts {
+    width: 48%;
+}
+
+.service-details ul,
+.service-discounts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+
+.service-details h2,
+.service-discounts h2 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-left: 20%;
+    
+}
+
+.service-details li,
+.service-discounts li {
+    margin-bottom: 8px;
+    margin-left: 20%;
+}
+
+/* Get Started Button */
+.get-started-btn {
+    display: block;
+    width: 200px;
+    text-align: center;
+    background-color: #708499c2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 90%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    
+}
+
+.get-started-btn:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+/*Get in touch section*/
+.touch-section h1{
+color: #ffffff;
+font-size: 25px;
+margin: auto;
+}
+
+.touch-section p{
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.touch-section h11{
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto;
+}
+
+.registration-form form{
+    background-color: #5050507a;
+    border: 5px solid #f1f1f181;
+    
+}
+
+.dropbtn   {
+    position: relative ;
+    z-index: 200;
+}
+
+.registration-form {
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/pexels-pixabay-207691.jpg') no-repeat center center;
+    font-family: 'Secular One', sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.contact-us-page {
+    position: relative;
+    width: 99%;
+    height: auto;
+    background: url('_img/pexels-pixabay-207691.jpg') no-repeat center center; /* Ensure this file path is correct */
+    font-family: 'Secular One', sans-serif;
+    background-size:cover; /* Adjust the background to cover without repeating */
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.form-container form{
+    background-color: #5050507a;
+    border: 5px solid #f1f1f181;
+    color: white ;
+}
+
+.form-group label {
+    color: white;
+    font-weight: normal ;
+}
+
+.back-btn-6month {
+    display: block;
+    width: 150px;
+    text-align: center;
+    background-color: #575757c2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 90%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.back-btn-6month:hover {
+    background-color: #ffffff;
+    color: black ;
+}
+
+.back-btn-6week {
+    display: block;
+    width: 150px;
+    text-align: center;
+    background-color: #575757c2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 90%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.back-btn-6week:hover {
+    background-color: #ffffff;
+    color: black ; 
+}
+
+.back-btn-home {
+    display: block;
+    width: 150px;
+    text-align: center;
+    background-color: #575757c2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 90%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 25px; 
+}
+
+.back-btn-home:hover {
+    background-color: #ffffff;
+    color: black ; 
+}
+
+.enroll-btn {
+    display: block;
+    width: 150px;
+    text-align: center;
+    background-color: #575757c2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 90%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    margin-right: 25px;
+    margin-top: -50px;
+}
+
+.enroll-btn:hover {
+    background-color: #ffffff;
+    color: black ; 
+}
+
+.map-asset {
+    border-width: 20px;
+    border-color: black;
+    border-radius: 50px;
+}
+
+.container-contact {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 30px ;
+    background-color: #5050507a;
+    border: 5px solid #f1f1f181;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.card-contact{
+    flex: 3 3 calc(1% - 2px); /* Adjust the percentage and subtraction value based on desired spacing */
+    background: #41414185;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.275);
+    overflow: hidden;
+    text-align: center;
+    margin: 25px; /* Optional: for additional spacing around cards */
+    height: fit-content;
+}
+
+.card-contact:hover{
+    background: #414141;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px; /* Space between each checkbox */
+}
+
+.checkbox-registration {
+    width: 24px;
+    height: 24px;
+}
